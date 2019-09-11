@@ -11,7 +11,8 @@ Hi there! I'm a Stockholm-based Front-End Developer / Engineer with a backgr
 - Design for Healthcare & Well-Being
 - Data Analysis (Qualitative & Quantitative)
 
-[LinkedIn](https://www.linkedin.com/in/rolandcoops/) | [GitHub](https://github.com/rolandcoops)
+[LinkedIn](https://www.linkedin.com/in/rolandcoops/) | [GitHub](https://github.com/rolandcoops) | [:page_facing_up: Resume in pdf](https://gitprint.com/rolandcoops/rolandcoops.github.io/blob/resume/index.md)
+
 
 ## Experience
 TODO
@@ -20,6 +21,10 @@ TODO
 TODO
 
 ## Skills
-TODO
-
-[:page_facing_up: PDF / print](https://gitprint.com/rolandcoops/rolandcoops.github.io/blob/resume/index.md)
+- **JavaScript** (modern), **React** stack — incl. many libraries e.g. Redux, Bootstrap, SemanticUI, …
+- **Sass** (SCSS), CSS
+- Build automation & integration **tooling** - Webpack, Docker, … 
+- **UI & UX Design**
+- User-Centric Design Processes, Agile, SCRUM
+- A sprinkle of Java & Erlang here and there
+- GIT
