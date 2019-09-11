@@ -11,7 +11,7 @@ Hi there! I'm a Stockholm-based Front-End Developer / Engineer with a backgr
 - Design for Healthcare & Well-Being
 - Data Analysis (Qualitative & Quantitative)
 
-[LinkedIn](https://www.linkedin.com/in/rolandcoops/) | [GitHub](https://github.com/rolandcoops) | [:page_facing_up: Resume in pdf](https://gitprint.com/rolandcoops/rolandcoops.github.io/blob/resume/index.md)
+[LinkedIn](https://www.linkedin.com/in/rolandcoops/) | [GitHub](https://github.com/rolandcoops) | [Resume in pdf](https://gitprint.com/rolandcoops/rolandcoops.github.io/blob/resume/index.md)
 
 
 ## Experience
