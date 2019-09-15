@@ -1,0 +1,203 @@
+$font-size:             14px;
+
+$profile-image-width:   200px;
+
+$margin:                20px;
+$margin-large:          $margin * 1.5;
+$margin-huge:           $margin * 2.5;
+
+$page-width:            960px;
+$page-padding:          $margin-huge;
+
+$border-color:        #e5e5e5;
+$border-color-light:  #f3f3f3;
+
+
+/* Standard margins & definitions */
+
+html {
+  font-size: $font-size;
+}
+
+body {
+  /* System Fonts as used by GitHub */
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #fff;
+  padding: $page-padding;
+  color: #555;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, section, pre, ul, ol {
+  margin: 0 0 $margin;
+}
+
+section + section {
+  margin-top: $margin-huge;
+}
+
+ul {
+  padding-left: 2em;
+}
+
+
+/* Headers */
+
+h1 { font-size: #{28px / $font-size}rem; }
+h2 { font-size: #{24px / $font-size}rem; }
+h3 { font-size: #{18px / $font-size}rem; }
+h4 { font-size: #{15px / $font-size}rem; }
+h5 { font-size: #{14px / $font-size}rem; }
+h6 { font-size: #{13px / $font-size}rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  
+  & > .sub-header {
+    display: block;
+    margin-top: .2em;
+    font-weight: normal;
+    color: #bbb;
+  }
+}
+
+
+h1, h2, h3 {
+  color:#222;
+
+  & > .sub-header {
+    font-size: .6em;
+  }
+}
+
+h4, h5, h6 {
+  color:#444;
+}
+
+
+/* Links */
+
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links > .link a {
+  display: block;
+  padding: $margin / 2;
+  text-decoration: none;
+  color: #39c;
+}
+
+.links > .link a:hover {
+  color: #069;
+}
+
+
+/* Page */
+
+.page {
+  width: $page-width;
+  margin: 0 auto;
+}
+
+.page > header {
+  position: fixed;
+  // width: $page-width / 3;
+  text-align: center;
+}
+
+.page > main {
+  padding: $margin-huge 0;
+  margin-left: $page-width / 3;
+}
+
+
+/* Profile */
+
+.profile img.profile-picture {
+  margin-bottom: $margin / 2;
+  width: $profile-image-width;
+  border-radius: 50%;
+  border: #{$margin / 2} solid $border-color-light;
+}
+
+
+/* Items */
+
+.item {
+  margin-bottom: $margin-large;
+}
+
+.item > blockquote {
+  padding-left: $margin;
+  border-left: 3px solid $border-color-light;
+}
+
+
+/* Mobile layout */
+
+@media print, screen and (max-width: #{$page-width + (2 * $page-padding)}) {
+  .links {
+    margin: 0;
+    width: 100%;
+
+  }
+
+  .links > .link + .link {
+    border-left: 1px solid $border-color;
+  }
+
+  .links > .link,
+  .links > .link a {
+    display: inline;
+  }
+
+  .page {
+    width: 100%;
+    margin: 0;
+  }
+
+  .page > header {
+    position: unset;
+    width: 100%;
+    text-align: center;
+  }
+
+  .page > main {
+    margin-left: unset;
+  }
+
+  .item > blockquote {
+    padding-left: 0;
+    border-left: none;
+  }
+
+  section + section {
+    border-top: 3px solid $border-color-light;
+    padding-top: $margin-large;
+    margin-top: $margin-large;
+  }
+}
+
+
+/* Reallly small screens */
+
+
+@media print, screen and (max-width: 720px) {
+  body {
+    padding: $margin-large;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding: $margin;
+  }
+}

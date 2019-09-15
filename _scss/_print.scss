@@ -1,0 +1,20 @@
+.links, .link {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, img, pre, li {
+  break-after: avoid-page;
+}
+
+@page {
+  margin: 2cm;
+}
+
+html {
+  font-size: 10pt;
+}
+
+body {
+  padding: none;
+}

@@ -1,2 +1,4 @@
-theme: jekyll-theme-minimal
-title: Roland Coops (Resume)
+markdown: kramdown
+sass:
+  sass_dir: _scss
+  style: compressed

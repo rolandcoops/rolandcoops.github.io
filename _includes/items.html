@@ -1,0 +1,17 @@
+<div class="items">
+  {% for item in include.items %}
+    <div class="item">
+      <h5 class="header">
+        <div>{{ item.what }}</div>
+        <em class="sub-header">
+          {{ item.where }}
+          (&#8202;{{ item.start_date }}&#8202;&mdash;&#8202;{{ item.end_date | default: 'Present' }}&#8202;)
+        </em>
+      </h5>
+      <blockquote>
+        {% assign paragraphs = item.description | strip | newline_to_br | split: '<br />' %}
+        {% for paragraph in paragraphs %}<p>{{ paragraph | strip }}</p>{% endfor %}
+      </blockquote>
+    </div>  
+  {% endfor %}  
+</div>
