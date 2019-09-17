@@ -2,3 +2,5 @@ markdown: kramdown
 sass:
   sass_dir: _scss
   style: compressed
+
+analytics-id: G-ZXZFWJNNZJ
