@@ -8,12 +8,12 @@
   width: 100%;
 }
 
-.links > * {
+.info > * {
   display: inline;
   padding: $margin / 2;
 }
 
-.links > * + * {
+.info > * + * {
   border-left: 1px solid $border-color;
 }
 
