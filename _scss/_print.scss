@@ -2,6 +2,26 @@
   display: none;
 }
 
+.info {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+.links > * {
+  display: inline;
+  padding: $margin / 2;
+}
+
+.links > * + * {
+  border-left: 1px solid $border-color;
+}
+
+.info > .e:before { content: '\0072\006f\006c\0061\006e\0064\0063'; }
+.info > .e:after {  content: '\0040\0067\006d\0061\0069\006c\002e\0063\006f\006d'; }
+.info > .p:before { content: '\0028\002b\0034\0036\0020\007c\0020\0030\0029'; }
+.info > .p:after {  content: '\0020\0038\0037\0020\0038\0039'; }
+
 h1, h2, h3, h4, h5, h6,
 p, blockquote, img, pre, li {
   break-after: avoid-page;
