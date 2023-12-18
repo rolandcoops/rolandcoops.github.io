@@ -1,7 +1,8 @@
-- JavaScript (modern standards), React stack — incl. many libraries e.g. Redux, Bootstrap, SemanticUI, Lodash, …
-- Sass (SCSS), CSS
-- Build automation & tooling - Webpack, Docker, … 
-- UI & UX design
-- Experienced with user-centric processes, Agile, SCRUM
-- Dabbled in Java & Erlang
-- GIT (i.e. standard development workflow best practices)
+- TypeScript (and modern standards JavaScript)
+- React stack — incl. many relevant third party libraries (e.g. for components, API handling, utilities, state)
+- CSS, JSS, SCSS/Sass
+- UX & UI (and interaction) design
+- Likes working in backend codebases to build or improve features (e.g. Java, Erlang)
+- Tooling & automation — e.g. Yarn, Jest, Webpack, Docker/Kubernetes, and others
+- Experienced working in various development frameworks —  Agile, SCRUM, Shape Up (incl. JIRA, Asana)
+- GIT (i.e. best practices for repository-based development)
