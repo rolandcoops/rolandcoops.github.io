@@ -1,27 +1,41 @@
-- what: Front-End Developer
-  where: Campanja
-  start_date: Apr 2017
+- what: Senior Frontend Engineer
+  where: Spotify
+  start_date: Aug 2023
   end_date: Present
   description: |
-    Operating with a small and focussed team on the development of a data-driven B2B predictive search bidding web-application using a React-based stack. Main focus is front-end feature development & improvement, encompassing also e.g. front-end architecture and interaction/UI design.
+    Developing Spotify’s internal data and insights platforms and building the tools to make meaningful data-driven business decisions. Recognised and promoted as senior engineer inside Spotify based on expertise and contribution.
 
-- what: Front-End Developer / Interaction Designer (ext.)
+- what: Frontend Engineer
+  where: Spotify
+  start_date: Jan 2020
+  end_date: Aug 2023
+  description: |
+    Developed the frontend (and some adjacent backend parts of the products) of large data and insights platforms, including the internal experimentation platform, which has afterwards been further developed into an external product.
+
+- what: Frontend Developer
+  where: Campanja
+  start_date: Apr 2017
+  end_date: Dec 2020
+  description: |
+    Operating with a small and focussed team on the development of a data-driven B2B predictive search bidding web-application using a React-based stack. Main focus is Frontend feature development & improvement, encompassing also e.g. Frontend architecture and interaction/UI design.
+
+- what: Frontend Developer / Interaction Designer (ext.)
   where: ASML
   start_date: Apr 2016
   end_date: Nov 2016
   description: |
-    Supported ASML’s shop floor operators by setting up the front-end, designing and building a suite of live shop floor control reports & mini-dashboards connected to a SAP MII infrastructure. Designed and built the interaction design (UI-wise) of the report suite, with custom data-visualization components (written in vanilla JS) for presenting report information to the user.
+    Supported ASML’s shop floor operators by setting up the Frontend, designing and building a suite of live shop floor control reports & mini-dashboards connected to a SAP MII infrastructure. Designed and built the interaction design (UI-wise) of the report suite, with custom data-visualization components (written in vanilla JS) for presenting report information to the user.
 
-- what: UX Designer / Front-End Developer (ext.)
+- what: UX Designer / Frontend Developer (ext.)
   where: VIR e-Care Solutions
   start_date: Dec 2015
   end_date: Mar 2016
   description: |
     Supported VIR e-Care Solutions with their re-design and development of their ‘Ecaris’ software suite for multidisciplinary care for rehabilitating patients. Contributed design (UX and interaction) of a pilot app (for patient rehabilitation planning for doctors), and developed part of the interface, using Angular / SASS. Provided additional consultancy for UX aspects of the remaining software suite development process.
 
-- what: UX Designer / Front-End Developer
+- what: UX Designer / Frontend Developer
   where: Atos
   start_date: Dec 2015
   end_date: Jan 2017
   description: |
-    Fulfilled a consultancy role through Atos, where I was involved both as a Front-End Developer and UX Designer role in projects for a variety of clients.
+    Fulfilled a consultancy role through Atos, where I was involved both as a Frontend Developer and UX Designer role in projects for a variety of clients.
