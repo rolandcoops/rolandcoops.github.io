@@ -1,40 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  {% include analytics.html id=site.analytics-id %}
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.description }}"/>
-  <link href="{{ '/assets/css/screen.css' | relative_url }}" rel="stylesheet" media="screen" />
-  <link href="{{ '/assets/css/print.css' | relative_url }}" rel="stylesheet" media="print" />
-</head>
-<body>
-  <div class="page">
-    <header>
-      {% include profile.html profile=site.data.profile %}
-      {% include links.html links=site.data.links %}
-      {% include info.html %}
-    </header>
-    <main>
-      <section>
-        <p>{{ site.data.summary.intro }}</p>
-        <h5>I’ve been doing…</h5>
-        {% include skills.html skills=site.data.summary.skills %}
-      </section>      
-      <section>
-        <h3>Previous Experience & Projects</h3>
-        {% include items.html items=site.data.experience %}
-      </section>
-      <section>
-        <h3>Skills</h3>
-        {% include skills.html skills=site.data.skills %}
-      </section>
-      <section>
-        <h3>Education</h3>
-        {% include items.html items=site.data.education %}
-      </section>
-    </main>
-  </div>
-</body>
+  <head>
+    {% include analytics.html id=site.analytics-id %}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}" />
+    <link
+      href="{{ '/assets/css/screen.css' | relative_url }}"
+      rel="stylesheet"
+      media="screen"
+    />
+    <link
+      href="{{ '/assets/css/print.css' | relative_url }}"
+      rel="stylesheet"
+      media="print"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        {% include profile.html profile=site.data.profile %}
+        {% include links.html links=site.data.links %}
+        {% include info.html %}
+      </header>
+      <main>
+        <section>
+          {% include intro.html intro=site.data.summary.intro %}
+          <h5>I’ve been doing…</h5>
+          {% include skills.html skills=site.data.summary.skills %}
+        </section>
+        <section>
+          <h3>Previous Experience & Projects</h3>
+          {% include items.html items=site.data.experience %}
+        </section>
+        <section>
+          <h3>Skills</h3>
+          {% include skills.html skills=site.data.skills %}
+        </section>
+        <section>
+          <h3>Education</h3>
+          {% include items.html items=site.data.education %}
+        </section>
+      </main>
+    </div>
+  </body>
 </html>

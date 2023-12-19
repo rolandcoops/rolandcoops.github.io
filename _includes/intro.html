@@ -1,0 +1,6 @@
+<div class="intro">
+  {% assign paragraphs = include.intro | strip | newline_to_br | split: '<br />'
+  %} {% for paragraph in paragraphs %}
+  <p>{{ paragraph | strip }}</p>
+  {% endfor %}
+</div>
