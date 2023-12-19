@@ -6,10 +6,8 @@ html {
 
 body {
   /* System Fonts as used by GitHub */
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.5;
   font-weight: 400;
 
@@ -18,8 +16,18 @@ body {
   color: #555;
 }
 
-h1, h2, h3, h4, h5, h6,
-p, blockquote, section, pre, ul, ol {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+section,
+pre,
+ul,
+ol {
   margin: 0 0 $margin;
 }
 
@@ -31,40 +39,69 @@ ul {
   padding-left: 2em;
 }
 
-
 /* Headers */
 
-h1 { font-size: #{28px / $font-size}rem; }
-h2 { font-size: #{24px / $font-size}rem; }
-h3 { font-size: #{18px / $font-size}rem; }
-h4 { font-size: #{15px / $font-size}rem; }
-h5 { font-size: #{14px / $font-size}rem; }
-h6 { font-size: #{13px / $font-size}rem; }
+h1 {
+  font-size: #{28px / $font-size}rem;
+}
+h2 {
+  font-size: #{24px / $font-size}rem;
+}
+h3 {
+  font-size: #{18px / $font-size}rem;
+}
+h4 {
+  font-size: #{15px / $font-size}rem;
+}
+h5 {
+  font-size: #{14px / $font-size}rem;
+}
+h6 {
+  font-size: #{13px / $font-size}rem;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 500;
-  
+
+  & > .secondary-header {
+    display: block;
+    margin-top: 0.2em;
+    font-weight: normal;
+    color: #777;
+  }
+
   & > .sub-header {
     display: block;
-    margin-top: .2em;
+    margin-top: 0.2em;
     font-weight: normal;
     color: #bbb;
   }
 }
 
+h1,
+h2,
+h3 {
+  color: #222;
 
-h1, h2, h3 {
-  color:#222;
+  & > .secondary-header {
+    font-size: 0.8em;
+  }
 
   & > .sub-header {
-    font-size: .6em;
+    font-size: 0.6em;
   }
 }
 
-h4, h5, h6 {
-  color:#444;
+h4,
+h5,
+h6 {
+  color: #444;
 }
-
 
 /* Links */
 
@@ -91,7 +128,6 @@ h4, h5, h6 {
   display: none;
 }
 
-
 /* Page */
 
 .page {
@@ -110,7 +146,6 @@ h4, h5, h6 {
   margin-left: $page-width / 3;
 }
 
-
 /* Profile */
 
 .profile img.profile-picture {
@@ -119,7 +154,6 @@ h4, h5, h6 {
   border-radius: 50%;
   border: #{$margin / 2} solid $border-color-light;
 }
-
 
 /* Items */
 
@@ -131,7 +165,6 @@ h4, h5, h6 {
   padding-left: $margin;
   border-left: 3px solid $border-color-light;
 }
-
 
 /* Mobile layout */
 
@@ -177,9 +210,7 @@ h4, h5, h6 {
   }
 }
 
-
 /* Reallly small screens */
-
 
 @media print, screen and (max-width: 720px) {
   body {
