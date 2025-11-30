@@ -45,6 +45,12 @@ li {
   break-after: avoid-page;
 }
 
+header,
+section,
+.item {
+  break-inside: avoid-page;
+}
+
 @page {
   size: auto;
   margin: 2cm;
