@@ -45,11 +45,11 @@ li {
   break-after: avoid-page;
 }
 
-// header,
+header,
 // section,
-// .item {
-//   break-inside: avoid-page;
-// }
+.item {
+  break-inside: avoid-page;
+}
 
 @page {
   // size: auto;
