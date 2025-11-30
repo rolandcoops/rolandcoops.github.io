@@ -31,19 +31,19 @@
   content: "\0020\0038\0037\0020\0038\0039";
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-img,
-pre,
-li {
-  break-after: avoid-page;
-}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// p,
+// blockquote,
+// img,
+// pre,
+// li {
+//   break-after: avoid-page;
+// }
 
 .item {
   break-inside: avoid-page;
