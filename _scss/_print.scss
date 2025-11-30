@@ -47,12 +47,12 @@ li {
 
 // header,
 // section,
-.item {
-  break-inside: avoid-page;
-}
+// .item {
+//   break-inside: avoid-page;
+// }
 
 @page {
-  size: auto;
+  // size: auto;
   margin: 2cm;
 }
 
