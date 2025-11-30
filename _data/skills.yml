@@ -1,8 +1,9 @@
-- TypeScript (and modern standards JavaScript)
 - React stack — incl. many third party libraries (e.g. for components, API handling, utilities, state)
-- CSS, JSS, SCSS/Sass
+- TypeScript (and modern JavaScript standards)
+- CSS, JSS, SCSS/Sass, Panda CSS
+- GraphQL, gRPC, REST
 - UX & UI (and interaction) design
-- Likes working in backend codebases to build or improve features (e.g. Java, Erlang)
-- Tooling & automation — e.g. Yarn, Jest, Webpack, Docker/Kubernetes, and others
-- Worked using various development frameworks —  Agile, SCRUM, Shape Up (incl. JIRA, Asana)
-- GIT (i.e. best practices for repository-based development)
+- Enjoys working in backend codebases to build or improve features (e.g. Java, Erlang)
+- Tooling & automation — e.g. Yarn, NX, Jest, Webpack, Docker/Kubernetes, and others
+- Worked using various development frameworks —  Agile, SCRUM, Shape Up (incl. JIRA, Asana, Linear)
+- GIT (i.e. best practices for multi/monorepo-based development)

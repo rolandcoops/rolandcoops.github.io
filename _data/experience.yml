@@ -1,9 +1,16 @@
+- what: Senior Software Engineer
+  where: Soundtrack
+  start_date: Apr 2024
+  end_date: Present
+  description: |
+    Currently building Soundtrack’s customer-facing apps to help business owners set up and play music in their venues. Key contributions include cross-platform feature development and maintenance, large-scale modernisation efforts to systematically migrate critical flows to GraphQL, implementing data gathering for user retention and growth, and engineering context-aware functionality to support product scalability and provide more tailored user experiences.
+
 - what: Senior Frontend Engineer
   where: Spotify
   start_date: Aug 2023
-  end_date: Present
+  end_date: Apr 2024
   description: |
-    Developing Spotify’s internal data and insights platforms and building the tools to make meaningful data-driven business decisions. Recognised and promoted as senior engineer inside Spotify based on expertise and contribution.
+    Developed Spotify’s internal data and insights platforms and built tools to make meaningful data-driven business decisions. Recognised and promoted as senior engineer inside Spotify based on expertise and contributions.
 
 - what: Frontend Engineer
   where: Spotify
