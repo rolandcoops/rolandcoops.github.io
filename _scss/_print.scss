@@ -46,6 +46,7 @@ li {
 }
 
 @page {
+  size: auto;
   margin: 2cm;
 }
 
@@ -54,7 +55,8 @@ html {
 }
 
 body {
-  padding: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1,

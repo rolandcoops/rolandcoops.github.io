@@ -159,6 +159,8 @@ h6 {
 
 .item {
   margin-bottom: $margin-large;
+  break-inside: avoid-page;
+  break-after: auto;
 }
 
 .item > blockquote {
